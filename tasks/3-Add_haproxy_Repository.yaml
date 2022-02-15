@@ -1,0 +1,5 @@
+---
+
+- name: 3-Add haproxy Repository
+  ansible.builtin.apt_repository:
+    repo: "ppa:vbernat/haproxy-2.5"
